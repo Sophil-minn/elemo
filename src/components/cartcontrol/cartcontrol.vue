@@ -30,6 +30,7 @@ export default {
           this.food.count++;
         }
         this.$emit('increment', event.target);
+        this.$emit('foodCom', event.target);
         return;
       },
       decreaseCart (event) {
