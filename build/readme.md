@@ -1,6 +1,5 @@
 
 #### build/dev-server.js文件  
->>>>>>> 0ec971327759af5b01ea6611ec24b8f576cac2e6
 1,检查node和npm的版本、引入相关插件和配置  
 2,webpack对源码进行编译打包并返回compiler对象ssss    
 3 .创建express服务器  
