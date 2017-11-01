@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     'html'
   ],
-  // add your custom rules here
+  // add your custom rules here 代码规范
   'rules': {
     // allow paren-less arrow functions
     'arrow-parens': 0,
