@@ -19,9 +19,11 @@
 	    }
 	  },
 	  computed: {
+	    // 根据传过来的size值 使用对应size的图片
 	    starType () {
             return 'star-' + this.size;
         },
+        // 根据分数计算全星几个半星几个灰星总分5分，然后存在result数组里
         itemClasses () {
             let result = [];
             let score = Math.floor(this.score * 2) / 2;
