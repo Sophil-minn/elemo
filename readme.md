@@ -3,7 +3,7 @@
 
 - index.html 入口文件
 
-- package.json 配置文件
+- package.json 项目基本信息
 
 - .eslintrc.js 代码检测
 
